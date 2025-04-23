@@ -1,6 +1,6 @@
 Project 3: Around The U.S.
 
-Overview
+\*\*Overview
 
 In project 3, Around the U.S., we focus on implementing CSS Grid to create a responsive layout that adapts seamlessly across different screen sizes. CSS Grid is a powerful tool for organizing content into structured layouts, ensuring images and text align properly.
 
@@ -10,7 +10,7 @@ Another essential property is grid-template-areas, which helps structure the lay
 
 Figma also plays a crucial role in our design workflow. Designers use Figma to create the project's layout, and our job as developers is to implement margins, paddings, and spacing according to the design specifications. Collaboration with designers is key to ensuring that the final product remains consistent with the intended design while optimizing efficiency and reducing errors.
 
-Page Features
+\*\*Page Features
 
 Responsive grid layout for organizing location cards.
 
@@ -22,38 +22,19 @@ Edit button with 60% opacity on hover.
 
 Smooth layout using a combination of CSS Grid and Flexbox for better responsiveness at smaller resolutions.
 
-Why Grid and Flexbox?
+\*\*Why Grid and Flexbox?
 
 We chose CSS Grid and Flexbox because they offer a flexible and adaptable layout that responds well to different screen sizes. Grid allows us to easily structure and align content, while Flexbox helps with spacing and alignment within individual elements. Together, they create a smooth and responsive experience for users.
 
-Links
+\*\*Images
+(yosemite-valley.jpg) (jacques-cousteau.jpg) (bald-mountains.png) (lago-di-braies.png) (lake-louise.png) (latemar.png) (vanoise-national-park.png) (images/like-active.svg) (images/logo.svg) (images/close-icon.svg) (images/edit-icon.svg) (images/add-icon.svg)
 
-Video Demo
+\*\*Links
 
-Live Website
+Video Demo: https://drive.google.com/file/d/1qb_AKcUjXpVnJ-Xzvi8vCeykN4OFAgo2/view?usp=sharing
 
-Figma Design File
+Live Website: https://jaspau22.github.io/se_project_aroundtheus/
+
+Figma Design File: https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1
 
 Enjoy exploring the world of Jacques Cousteau with our interactive, responsive landing page!
-
-# Project 3: Around The U.S.
-
-### Overview
-
-- Intro
-- Figma
-- Images
-
-**Intro**
-
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
-
-**Figma**
-
-- [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
-
-Good luck and have fun!
