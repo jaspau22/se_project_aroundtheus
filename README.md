@@ -37,4 +37,4 @@ Live Website: https://jaspau22.github.io/se_project_aroundtheus/
 
 Figma Design File: https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1
 
-Enjoy exploring the world of Jacques Cousteau with our interactive, responsive landing page!
+Enjoy exploring the world of Jacques Cousteau with my interactive, responsive landing page!
