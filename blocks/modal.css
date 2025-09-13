@@ -15,6 +15,10 @@
   display: flex;
 }
 
+.modal__closed {
+  display: none;
+}
+
 .modal__container {
   background-color: white;
   width: 430px;
