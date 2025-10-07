@@ -29,13 +29,57 @@ let initialCards = [
 const profileEditBtn = document.querySelector("#profile-edit-button");
 const profileEditModal = document.querySelector("#profile-edit-modal");
 const editCloseBtn = document.querySelector("#edit-close-button");
+const profileTitle = document.querySelector(".profile__title");
+const profileDescription = document.querySelector(".profile__description");
+const profileTitleInput = document.querySelector("#profile-title-input");
+const profileDescriptionInput = document.querySelector(
+  "#profile-description-input"
+);
+const editSaveBtn = document.querySelector("#modal-save-button");
+const cardListEl = document.querySelector(".cards__list");
+const cardTemplate =
+  document.querySelector("#card-template").content.firstElementChild;
+
+function closePopup() {
+  profileEditModal.classList.add("modal__closed");
+  profileEditModal.classList.remove("modal__opened");
+}
+
+function getCardElement(cardData) {
+  // clone the template element with all its content and store it in a cardElement variable
+  const cardElement = cardTemplate.cloneNode(true);
+  // access the card title and image and store them in variables
+  const cardImageEl = cardElement.querySelector(".card__image");
+  const cardTitleEl = cardElement.querySelector(".card__name");
+  // set the path to the image to the link field of the object
+  cardImageEl.src = cardData.link;
+  // set the image alt text to the name field of the object
+  cardImageEl.alt = cardData.name;
+  // set the card title to the name field of the object, too
+  cardTitleEl.textContent = cardData.name;
+  // return the ready HTML element with the filled-in data
+  return cardElement;
+}
 
 profileEditBtn.addEventListener("click", () => {
+  profileTitleInput.value = profileTitle.textContent;
+  profileDescriptionInput.value = profileDescription.textContent;
   profileEditModal.classList.add("modal__opened");
   profileEditModal.classList.remove("modal__closed");
 });
 
 editCloseBtn.addEventListener("click", () => {
-  profileEditModal.classList.add("modal__closed");
-  profileEditModal.classList.remove("modal__opened");
+  closePopup();
+});
+
+editSaveBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  profileTitle.textContent = profileTitleInput.value;
+  profileDescription.textContent = profileDescriptionInput.value;
+  closePopup();
+});
+
+initialCards.forEach((carData) => {
+  const cardElement = getCardElement(carData);
+  cardListEl.prepend(cardElement);
 });

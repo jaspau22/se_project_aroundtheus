@@ -42,13 +42,6 @@
   cursor: pointer;
 }
 
-.modal__span {
-  color: black;
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
 .modal__title {
   color: black;
   font-family: "Inter", Arial, sans-serif;
@@ -67,6 +60,7 @@
   margin-bottom: 29.74px;
   border: none;
   border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
 }
 
 .modal__input-margin {
