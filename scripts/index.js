@@ -41,7 +41,6 @@ const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
 
 function closePopup() {
-  profileEditModal.classList.add("modal__closed");
   profileEditModal.classList.remove("modal__opened");
 }
 
@@ -65,7 +64,6 @@ profileEditBtn.addEventListener("click", () => {
   profileTitleInput.value = profileTitle.textContent;
   profileDescriptionInput.value = profileDescription.textContent;
   profileEditModal.classList.add("modal__opened");
-  profileEditModal.classList.remove("modal__closed");
 });
 
 editCloseBtn.addEventListener("click", () => {
