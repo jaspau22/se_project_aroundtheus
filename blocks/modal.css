@@ -20,10 +20,14 @@
 }
 
 .modal__container {
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: relative;
   background-color: white;
-  width: 430px;
-  height: 330px;
-  padding-bottom: 36.51px;
+  max-width: 430px;
+  width: 100%;
+  min-height: 330px;
+  padding: 34px 36px;
 }
 
 .modal__form {
